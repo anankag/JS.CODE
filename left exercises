@@ -1,0 +1,72 @@
+4.
+
+let n_ = 1234;
+let count = 0;
+    while (n_ !== 0)
+    {
+        n_ = (n_ - n_%10)/10;
+        ++count;
+    }
+    console.log(count);
+
+    let x = 12;
+    let sum_ = 0;
+    while(x !== 0) {
+        x = (x - x%10)/10;
+        ++sum_;
+    }
+    console.log (sum_)
+
+
+    let i = 8;
+    let res_ = 0;
+    while ( i !== 0) {
+        i = (i - i%10)/10;
+        ++res_;
+    }
+    console.log(res_)
+
+6.
+
+let n1 = 2463;
+let d = 5;
+let res = false;
+    while (n1) {
+        if (d === n1%10 ) {
+            console.log(res ="Yes");
+            break;
+        }
+            n1 = (n1 -n1%10)/10;
+                
+        };
+    
+if (res === false) {
+    console.log("No")
+}
+
+let _n = 45689;
+let _d = 8;
+let _res = false;
+    while (_n) {
+        if (_d === _n%10 ) {
+            console.log(_res ="Yes");
+            break;
+        }
+            _n = (_n -_n%10)/10;
+                
+        };
+    
+if (_res === false) {
+    console.log("No")
+}
+
+7.
+
+let n = 895796;
+let sum = 0;
+while (n) {
+    sum += (n%10);
+    n = (n - n%10)/10;
+    
+}
+console.log(sum)
