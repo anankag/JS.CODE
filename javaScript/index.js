@@ -8,7 +8,6 @@ function charCount(string, str) {
   return count;
 }
 
-
 charCount("a", "edabit");
 charCount("c", "chamber of secrets");
 charCount("b", "big fat bubble");
