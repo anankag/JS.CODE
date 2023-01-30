@@ -94,6 +94,7 @@ function potatoes(string) {
 
 console.log(potatoes("potatopotatopotato"));
 
+
 let lessThanOrEqualToZero = () => num <= 0;
 
 console.log(lessThanOrEqualToZero(5));
