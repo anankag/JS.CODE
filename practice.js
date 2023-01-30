@@ -20,12 +20,12 @@ calcAge(0);
 calcAge(20);
 console.log(ageInDays);
 
-1.1 function lessThanOrEqualToZero(num) {
+ function lessThanOrEqualToZero(num) {
 	return num <= 0;
 	}
 lessThanOrEqualToZero(5);
 
-1.2 const lessThanOrEqualToZero = num => num <= 0;
+const lessThanOrEqualToZero = num => num <= 0;
 let res = 0;
 let num = 4;
     for (let i=1; i <=num;i++){
