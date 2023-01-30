@@ -29,9 +29,9 @@ highestDigit(2);
 highestDigit(377401);
 
 let _res = 0;
-function findPerimeter(length, width) {
-  _res = 2 * (length + width);
-  return _res;
+function findPerimeter(length, width){
+_res = 2*(length+width);
+return _res;
 }
 
 findPerimeter(6, 7);
@@ -82,14 +82,14 @@ isPlural("change");
 isPlural("dudes");
 isPlural("magic");
 
-function potatoes(string) {
-  let output = 0;
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] === "p") {
-      ++output;
+function potatoes(string){
+    let output = 0;
+for (let i = 0; i < string.length; i ++){
+    if (string[i]==="p"){
+     ++output;
     }
-  }
-  return output;
+}
+return output;
 }
 
-console.log(potatoes("potatopotatopotato"));
+console.log(potatoes("potatopotatopotato")); 
