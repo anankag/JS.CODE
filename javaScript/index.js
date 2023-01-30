@@ -1,12 +1,13 @@
-let res = 0;
+let count = 0;
 function charCount(string, str) {
   for (let i = 0; i < str.length; i++) {
     if (str[i] === string) {
-      ++res;
+      ++count;
     }
   }
-  return res;
+  return count;
 }
+
 
 charCount("a", "edabit");
 charCount("c", "chamber of secrets");
@@ -37,6 +38,8 @@ function findPerimeter(length, width) {
 findPerimeter(6, 7);
 findPerimeter(20, 10);
 findPerimeter(2, 9);
+
+
 
 let sum = 0;
 function calcLength(string) {
@@ -96,5 +99,4 @@ console.log(potatoes("potatopotatopotato"));
 
 
 let lessThanOrEqualToZero = () => num <= 0;
-
 console.log(lessThanOrEqualToZero(5));
