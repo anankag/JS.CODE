@@ -1,4 +1,4 @@
-
+//1
 function filterArray(arr) {
   return arr.filter((el) => typeof el === "number");
 }
@@ -8,6 +8,7 @@ console.log(
   filterArray([1, 2, "aasf", "1", "123", 123])
 );
 
+//2
 function sortByLength(array) {
   return array.sort((a, b) => a.length - b.length);
 }
@@ -35,6 +36,7 @@ console.log(
   sortWithoutDuplicates([1, 1, 13, 9, 9, 3, 10, 3, 5, 5])
 );
 
+//3
 function set(array) {
   const newArray = [...new Set(array)];
   newArray.sort((a, b) => a - b);
@@ -47,6 +49,7 @@ console.log(
   set([5, 7, 8, 9, 10, 15])
 );
 
+//4
 function charIndex(string, char) {
   let lastIndex = string.lastIndexOf(char);
   let firstIndex = string.indexOf(char);
@@ -62,6 +65,7 @@ console.log(
   charIndex("happy", "e")
 );
 
+//5
 function clone(array) {
   const newArr = [...array];
   newArr.push(array);
@@ -69,6 +73,7 @@ function clone(array) {
 }
 console.log(clone([1, 1]), clone([1, 2, 3]), clone(["x", "y"]));
 
+//6
 let newArray = [];
 function indexMultiplier(array) {
   newArray = array.map((index, el) => {
@@ -84,6 +89,7 @@ for (let i = 0; i < newArray.length; i++) {
 }
 console.log(sum);
 
+//7
 function spelling(str) {
   const array = [];
   let n = 0;
